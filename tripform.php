@@ -51,10 +51,12 @@ if(isset($_POST['name'])){
 
 .bgimg{
     width: 100%;
+    height: 100%;
     position: absolute;
     z-index: -1;
-    opacity: 0.9;
+    opacity: 1;
 }
+
 
 form{
     border: 3px solid rgb(255, 145, 145);
@@ -82,10 +84,14 @@ input{
     cursor: pointer;
     width: 10%;
 }
+
+
+
+
     </style>
 </head>
 <body>
-    <img class="bgimg" src="bg2.jpg" alt="Trip image">
+    <img class="bgimg" src="https://www.tripzeeholidays.com/_next/image?url=https%3A%2F%2Fs3.ap-south-1.amazonaws.com%2Ftripzee.storage%2FGoa_493382300b.png&w=3840&q=75" alt="Trip image">
     <div class="box">
     <h3>This is the form for trip to Goa</h3><br>
     <p>Regester by submiting your above details </p><br>
